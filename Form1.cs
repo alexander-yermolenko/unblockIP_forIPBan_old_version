@@ -90,7 +90,7 @@ namespace unblockIP_forIPBan
 
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit(); // instead of this.Close();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
